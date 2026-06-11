@@ -1,0 +1,331 @@
+{
+  "common": {
+    "appName": "OLabo",
+    "loading": "ກຳລັງໂຫລດ...",
+    "error": "ເກີດຂໍ້ຜິດພາດ",
+    "retry": "ລອງໃໝ່",
+    "save": "ບັນທຶກ",
+    "cancel": "ຍົກເລີກ",
+    "confirm": "ຢືນຢັນ",
+    "delete": "ລຶບ",
+    "edit": "ແກ້ໄຂ",
+    "view": "ເບິ່ງ",
+    "search": "ຄົ້ນຫາ",
+    "filter": "ກັ່ນຕອງ",
+    "export": "ສົ່ງອອກ",
+    "print": "ພິມ",
+    "download": "ດາວໂຫລດ",
+    "upload": "ອັບໂຫລດ",
+    "submit": "ສົ່ງ",
+    "back": "ກັບຄືນ",
+    "next": "ຕໍ່ໄປ",
+    "close": "ປິດ",
+    "noData": "ບໍ່ພົບຂໍ້ມູນ",
+    "actions": "ການດຳເນີນງານ",
+    "status": "ສະຖານະ",
+    "date": "ວັນທີ",
+    "name": "ຊື່",
+    "code": "ລະຫັດ",
+    "note": "ໝາຍເຫດ",
+    "phone": "ເບີໂທ",
+    "email": "ອີເມວ",
+    "address": "ທີ່ຢູ່",
+    "yes": "ແມ່ນ",
+    "no": "ບໍ່",
+    "all": "ທັງໝົດ",
+    "from": "ຈາກ",
+    "to": "ຫາ",
+    "required": "ຕ້ອງການ",
+    "optional": "ທາງເລືອກ",
+    "showing": "ສະແດງ {from}–{to} ຈາກ {total}",
+    "previous": "ກ່ອນ",
+    "nextPage": "ຕໍ່ໄປ"
+  },
+  "nav": {
+    "home": "ໜ້າຫຼັກ",
+    "booking": "ຈອງກວດເລືອດ",
+    "results": "ຜົນກວດ",
+    "prices": "ລາຄາ",
+    "login": "ເຂົ້າສູ່ລະບົບ",
+    "logout": "ອອກຈາກລະບົບ",
+    "dashboard": "ພາບລວມ",
+    "batches": "ຊຸດຕົວຢ່າງ",
+    "samples": "ຕົວຢ່າງ",
+    "allResults": "ຜົນກວດ",
+    "settings": "ການຕັ້ງຄ່າ",
+    "support": "ຊ່ວຍເຫຼືອ",
+    "adminOverview": "ພາບລວມ",
+    "b2bBatches": "ຊຸດ B2B",
+    "b2bSamples": "ຕົວຢ່າງ B2B",
+    "bookings": "ການຈອງ",
+    "users": "ຜູ້ໃຊ້ & ບົດບາດ",
+    "organizations": "ອົງກອນ",
+    "auditLogs": "ບັນທຶກ"
+  },
+  "home": {
+    "hero": {
+      "title": "ກວດເລືອດທີ່ບ້ານ — ໄວ, ຖືກຕ້ອງ",
+      "subtitle": "ຈອງອອນລາຍ, ທີມງານມາເກັບຕົວຢ່າງເຖິງບ້ານ. ຜົນກວດປອດໄພ, ຮັບທາງດິຈິຕໍ.",
+      "cta": "ຈອງກວດເລືອດ",
+      "ctaSecondary": "ເບິ່ງລາຄາ"
+    },
+    "features": {
+      "homeCollection": "ເກັບຕົວຢ່າງເຖິງບ້ານ",
+      "homeCollectionDesc": "ທີມງານທີ່ໄດ້ຮັບການຮັບຮອງມາເກັບຕົວຢ່າງໃຫ້",
+      "fastResults": "ຜົນກວດໄວ",
+      "fastResultsDesc": "ຜົນກວດສ່ວນໃຫຍ່ໃນ 24–48 ຊົ່ວໂມງ",
+      "secureAccess": "ການເຂົ້າເຖິງທີ່ປອດໄພ",
+      "secureAccessDesc": "ເຂົ້າເຖິງຜົນກວດສ່ວນຕົວດ້ວຍລະຫັດສ່ວນຕົວ"
+    },
+    "howItWorks": {
+      "title": "ຂັ້ນຕອນ",
+      "step1": "ຈອງອອນລາຍ",
+      "step1Desc": "ເລືອກການກວດແລະນັດຈອງ",
+      "step2": "ເກັບຕົວຢ່າງ",
+      "step2Desc": "ທີມງານມາເຮືອນເພື່ອເກັບຕົວຢ່າງ",
+      "step3": "ຮັບຜົນ",
+      "step3Desc": "ດາວໂຫລດ PDF ຜົນກວດທີ່ປອດໄພ"
+    }
+  },
+  "booking": {
+    "title": "ຈອງກວດເລືອດ",
+    "steps": {
+      "selectTests": "ເລືອກການກວດ",
+      "patientInfo": "ຂໍ້ມູນຄົນເຈັບ",
+      "schedule": "ນັດຈອງ",
+      "confirm": "ຢືນຢັນ"
+    },
+    "patientName": "ຊື່-ນາມສະກຸນ",
+    "patientPhone": "ເບີໂທ",
+    "patientDob": "ວັນເດືອນປີເກີດ",
+    "patientGender": "ເພດ",
+    "homeCollection": "ເກັບຕົວຢ່າງເຖິງບ້ານ",
+    "homeCollectionDesc": "ທີມງານຈະມາທີ່ທີ່ຢູ່ຂອງທ່ານ",
+    "collectionAddress": "ທີ່ຢູ່ເກັບຕົວຢ່າງ",
+    "scheduledDate": "ວັນທີທີ່ຕ້ອງການ",
+    "scheduledTime": "ເວລາທີ່ຕ້ອງການ",
+    "confirmBooking": "ຢືນຢັນການຈອງ",
+    "success": "ຈອງສຳເລັດ!",
+    "bookingCode": "ລະຫັດການຈອງ",
+    "totalPrice": "ລວມ"
+  },
+  "results": {
+    "title": "ຄົ້ນຫາຜົນກວດ",
+    "subtitle": "ໃສ່ເບີໂທແລະລະຫັດຜົນກວດເພື່ອເຂົ້າເຖິງຜົນ",
+    "phonePlaceholder": "ເບີໂທທີ່ລົງທະບຽນ",
+    "codePlaceholder": "ລະຫັດຜົນກວດ (ເຊັ່ນ: R-20240601-XXXX)",
+    "lookup": "ຄົ້ນຫາ",
+    "notFound": "ບໍ່ພົບຜົນ. ກວດສອບເບີໂທແລະລະຫັດ.",
+    "downloadPdf": "ດາວໂຫລດ PDF",
+    "resultDate": "ວັນທີຜົນ",
+    "testSummary": "ສຸຂຸມຜົນ",
+    "status": {
+      "pending": "ກຳລັງດຳເນີນ",
+      "ready": "ພ້ອມ",
+      "review_required": "ກຳລັງທົບທວນ",
+      "released": "ເຜີຍແຜ່ແລ້ວ"
+    }
+  },
+  "prices": {
+    "title": "ລາຄາກວດ",
+    "searchPlaceholder": "ຄົ້ນຫາຊື່ຫຼືລະຫັດ",
+    "code": "ລະຫັດ",
+    "testName": "ຊື່ການກວດ",
+    "sampleType": "ປະເພດຕົວຢ່າງ",
+    "turnaround": "ເວລາ",
+    "price": "ລາຄາ",
+    "categories": {
+      "all": "ທັງໝົດ",
+      "hematology": "ໂລຫິດວິທະຍາ",
+      "biochemistry": "ຊີວເຄມີ",
+      "immunology": "ພູມຕ້ານທານ",
+      "microbiology": "ຈຸລິນຊີ",
+      "hormones": "ຮໍໂມນ",
+      "packages": "ຊຸດກວດ"
+    }
+  },
+  "auth": {
+    "loginTitle": "ເຂົ້າສູ່ລະບົບ",
+    "partnerLoginTitle": "ພອດທັນຄູ່ຮ່ວມ",
+    "emailLabel": "ອີເມວ",
+    "passwordLabel": "ລະຫັດຜ່ານ",
+    "loginButton": "ເຂົ້າ",
+    "loggingIn": "ກຳລັງເຂົ້າ...",
+    "invalidCredentials": "ອີເມວຫຼືລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ",
+    "forgotPassword": "ລືມລະຫັດ?",
+    "partnerLogin": "ເຂົ້າສູ່ລະບົບຄູ່ຮ່ວມ"
+  },
+  "partner": {
+    "dashboard": {
+      "title": "ພາບລວມຄູ່ຮ່ວມ",
+      "totalBatches": "ຊຸດທັງໝົດ",
+      "processing": "ກຳລັງດຳເນີນ",
+      "completedThisMonth": "ສຳເລັດເດືອນນີ້",
+      "readyToDownload": "ພ້ອມດາວໂຫລດ",
+      "recentBatches": "ຊຸດລ່າສຸດ",
+      "viewAll": "ເບິ່ງທັງໝົດ",
+      "newBatch": "ຊຸດໃໝ່",
+      "viewResults": "ເບິ່ງຜົນ"
+    }
+  },
+  "b2b": {
+    "batch": {
+      "title": "ຊຸດຕົວຢ່າງ B2B",
+      "batchCode": "ລະຫັດຊຸດ",
+      "partnerRef": "ລະຫັດຄູ່ຮ່ວມ",
+      "submittedDate": "ວັນທີສົ່ງ",
+      "totalSamples": "ຕົວຢ່າງທັງໝົດ",
+      "completedSamples": "ສຳເລັດ",
+      "pickupRequired": "ຕ້ອງການຮັບຕົວຢ່າງ",
+      "submittedBy": "ສົ່ງໂດຍ",
+      "submittedByPhone": "ເບີຕິດຕໍ່",
+      "pickupAddress": "ທີ່ຢູ່ຮັບ",
+      "pickupDate": "ວັນຮັບ",
+      "pickupTime": "ເວລາຮັບ",
+      "organizationName": "ອົງກອນ",
+      "internalNote": "ໝາຍເຫດພາຍໃນ (admin ເທົ່ານັ້ນ)",
+      "progress": "ສຳເລັດ {completed}/{total} ຕົວຢ່າງ",
+      "noPickup": "ສົ່ງດ້ວຍຕົນເອງ",
+      "createTitle": "ສ້າງຊຸດໃໝ່",
+      "editTitle": "ແກ້ໄຂຊຸດ",
+      "newBatch": "ສ້າງຊຸດໃໝ່",
+      "batchInfo": "ຂໍ້ມູນຊຸດ",
+      "addSamples": "ເພີ່ມຕົວຢ່າງ",
+      "manualEntry": "ປ້ອນດ້ວຍມື",
+      "csvImport": "ນຳເຂົ້າ CSV",
+      "saveAsDraft": "ບັນທຶກຮ່າງ",
+      "submitBatch": "ສົ່ງຊຸດ",
+      "samplesAdded": "ເພີ່ມ {count} ຕົວຢ່າງ",
+      "confirmSubmit": "ຢືນຢັນສົ່ງ?",
+      "confirmSubmitDesc": "ຫຼັງຈາກສົ່ງ, ຊຸດຈະຖືກສົ່ງໄປຫ້ອງ Lab.",
+      "submitSuccess": "ສົ່ງຊຸດສຳເລັດ!",
+      "batchCodeLabel": "ລະຫັດຊຸດ",
+      "exportCsv": "ສົ່ງອອກ CSV",
+      "downloadReady": "ດາວໂຫລດຜົນພ້ອມ ({count})",
+      "printSummary": "ພິມສຸຂຸມ",
+      "contactSupport": "ຕິດຕໍ່",
+      "markReceived": "ໝາຍວ່າໄດ້ຮັບ",
+      "updateStatus": "ອັບເດດສະຖານະ"
+    },
+    "sample": {
+      "title": "ລາຍລະອຽດຕົວຢ່າງ",
+      "patientName": "ຊື່ຄົນເຈັບ",
+      "patientCode": "ລະຫັດຄົນເຈັບ",
+      "patientPhone": "ເບີໂທ",
+      "patientDob": "ວັນເດືອນປີເກີດ",
+      "patientGender": "ເພດ",
+      "sampleBarcode": "ບາໂຄດຕົວຢ່າງ",
+      "sampleType": "ປະເພດຕົວຢ່າງ",
+      "requestedTests": "ການກວດທີ່ຂໍ",
+      "requestedPackages": "ຊຸດທີ່ຂໍ",
+      "partnerSampleRef": "ລະຫັດຄູ່ຮ່ວມ",
+      "collectionDate": "ວັນເກັບ",
+      "receivedAt": "ວັນຮັບ",
+      "rejectionReason": "ເຫດຜົນປະຕິເສດ",
+      "assignBarcode": "ກຳນົດບາໂຄດ",
+      "assignBarcodeButton": "ກຳນົດ",
+      "uploadResult": "ອັບໂຫລດ PDF",
+      "releaseToPartner": "ເຜີຍແຜ່ໃຫ້ຄູ່ຮ່ວມ",
+      "requireReview": "ຂໍທົບທວນ",
+      "releasedAt": "ວັນເຜີຍແຜ່",
+      "releasedBy": "ເຜີຍແຜ່ໂດຍ",
+      "downloadHistory": "ປະຫວັດດາວໂຫລດ"
+    },
+    "csv": {
+      "downloadTemplate": "ດາວໂຫລດແມ່ແບບ CSV",
+      "uploadZone": "ວາງ CSV ທີ່ນີ້ ຫຼືກົດເລືອກ",
+      "uploadHint": "ຮອງຮັບ .csv ເທົ່ານັ້ນ. ສູງສຸດ 1000 ແຖວ.",
+      "preview": "ເບິ່ງຕົວຢ່າງ CSV",
+      "validRows": "{count} ແຖວຖືກ",
+      "errorRows": "{count} ແຖວຜິດ",
+      "uploadValidOnly": "ນຳເຂົ້າ {count} ແຖວຖືກ",
+      "rowNumber": "ແຖວ",
+      "errorColumn": "ຂໍ້ຜິດ",
+      "noErrors": "ບໍ່ມີຂໍ້ຜິດ",
+      "columns": {
+        "patientName": "patientName",
+        "patientCode": "patientCode",
+        "patientPhone": "patientPhone",
+        "patientDob": "patientDob",
+        "patientGender": "patientGender",
+        "sampleType": "sampleType",
+        "requestedTestCodes": "requestedTestCodes",
+        "requestedPackageCodes": "requestedPackageCodes",
+        "partnerSampleReference": "partnerSampleReference",
+        "note": "note"
+      },
+      "errors": {
+        "patientNameRequired": "patientName ຕ້ອງການ",
+        "sampleTypeRequired": "sampleType ຕ້ອງການ",
+        "invalidGender": "patientGender ຕ້ອງເປັນ: male, female, other, ຫຼື unknown"
+      }
+    },
+    "status": {
+      "batch": {
+        "draft": "ຮ່າງ",
+        "submitted": "ສົ່ງແລ້ວ",
+        "pickup_scheduled": "ນັດຮັບ",
+        "received": "ໄດ້ຮັບ",
+        "processing": "ກຳລັງດຳເນີນ",
+        "partially_completed": "ສຳເລັດບາງສ່ວນ",
+        "completed": "ສຳເລັດ",
+        "cancelled": "ຍົກເລີກ"
+      },
+      "sample": {
+        "registered": "ລົງທະບຽນ",
+        "received": "ໄດ້ຮັບ",
+        "rejected": "ປະຕິເສດ",
+        "processing": "ກຳລັງດຳເນີນ",
+        "result_ready": "ຜົນພ້ອມ",
+        "result_released": "ເຜີຍແຜ່ແລ້ວ",
+        "cancelled": "ຍົກເລີກ"
+      },
+      "result": {
+        "not_started": "ຍັງບໍ່ເລີ່ມ",
+        "pending": "ລໍຖ້າ",
+        "ready": "ພ້ອມ",
+        "review_required": "ຕ້ອງທົບທວນ",
+        "released": "ເຜີຍແຜ່"
+      }
+    },
+    "actions": {
+      "viewBatch": "ເບິ່ງຊຸດ",
+      "viewSample": "ເບິ່ງຕົວຢ່າງ",
+      "downloadPdf": "ດາວໂຫລດ PDF",
+      "downloadAll": "ດາວໂຫລດທັງໝົດ",
+      "exportCsv": "ສົ່ງອອກ CSV",
+      "releaseSample": "ເຜີຍແຜ່",
+      "markReceived": "ໝາຍໄດ້ຮັບ",
+      "assignBarcode": "ກຳນົດບາໂຄດ",
+      "uploadPdf": "ອັບໂຫລດ PDF",
+      "pdfNotReady": "ຍັງບໍ່ພ້ອມ",
+      "pdfPreparing": "ກຳລັງກຽມ...",
+      "pdfFailed": "ຜິດ — ລອງໃໝ່"
+    },
+    "errors": {
+      "batchNotFound": "ບໍ່ພົບຊຸດ",
+      "sampleNotFound": "ບໍ່ພົບຕົວຢ່າງ",
+      "accessDenied": "ທ່ານບໍ່ມີສິດ",
+      "resultNotReady": "ຜົນຍັງບໍ່ພ້ອມ",
+      "uploadFailed": "ອັບໂຫລດລົ້ມ. ລອງໃໝ່."
+    }
+  },
+  "gender": {
+    "male": "ຊາຍ",
+    "female": "ຍິງ",
+    "other": "ອື່ນ",
+    "unknown": "ບໍ່ຮູ້"
+  },
+  "admin": {
+    "dashboard": {
+      "title": "ພາບລວມ Admin"
+    },
+    "b2bBatches": {
+      "title": "ຊຸດ B2B",
+      "allOrganizations": "ທຸກອົງກອນ"
+    },
+    "b2bSamples": {
+      "title": "ຈັດການຕົວຢ່າງ B2B"
+    }
+  }
+}

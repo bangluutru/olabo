@@ -1,0 +1,3 @@
+patientName,patientCode,patientPhone,patientDob,patientGender,sampleType,requestedTestCodes,requestedPackageCodes,partnerSampleReference,note
+Nguyen Van A,P001,0912345678,1990-01-15,male,blood,CBC;LFT,PKG-BASIC,CLINIC-REF-001,
+Tran Thi B,P002,,1985-07-22,female,blood,TSH,,CLINIC-REF-002,Priority sample

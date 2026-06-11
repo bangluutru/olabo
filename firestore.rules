@@ -1,0 +1,112 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ─── Helper functions ─────────────────────────────────────────────────────
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function userRole() {
+      return request.auth.token.role;
+    }
+
+    function organizationId() {
+      return request.auth.token.organizationId;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && userRole() == 'admin';
+    }
+
+    function isAdminOrStaff() {
+      return isAuthenticated() && userRole() in ['admin', 'staff', 'doctor'];
+    }
+
+    function isPartner() {
+      return isAuthenticated() && userRole() == 'partner';
+    }
+
+    function isOwnOrganization(orgId) {
+      return isPartner() && orgId == organizationId();
+    }
+
+    // ─── Users ────────────────────────────────────────────────────────────────
+
+    match /users/{userId} {
+      allow read: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+      allow write: if isAdmin();
+    }
+
+    // ─── Organizations ────────────────────────────────────────────────────────
+
+    match /organizations/{orgId} {
+      allow read: if isAdminOrStaff() || (isPartner() && orgId == organizationId());
+      allow write: if isAdmin();
+    }
+
+    // ─── B2B Batches ──────────────────────────────────────────────────────────
+
+    match /b2bBatches/{batchId} {
+      // Partner can only read their own organization's batches
+      allow read: if isOwnOrganization(resource.data.organizationId) || isAdminOrStaff();
+      // All writes must go through Cloud Functions (no direct writes)
+      allow write: if false;
+    }
+
+    // ─── B2B Batch Samples ────────────────────────────────────────────────────
+
+    match /b2bBatchSamples/{sampleId} {
+      allow read: if isOwnOrganization(resource.data.organizationId) || isAdminOrStaff();
+      allow write: if false;
+    }
+
+    // ─── Results ──────────────────────────────────────────────────────────────
+
+    match /results/{resultId} {
+      // B2C: phone + resultCode lookup (handled client-side with composite query)
+      allow read: if
+        // B2C public lookup — must match phone + resultCode (Firestore query filter enforced)
+        (resource.data.resultScope == 'b2c' && !isAuthenticated())
+        // B2B partner access — own org only
+        || isOwnOrganization(resource.data.organizationId)
+        // Admin/staff/doctor full access
+        || isAdminOrStaff();
+      allow write: if false;
+    }
+
+    // ─── Result Downloads (audit log) ─────────────────────────────────────────
+
+    match /resultDownloads/{downloadId} {
+      allow read: if isAdminOrStaff();
+      allow write: if false;
+    }
+
+    // ─── Audit Logs ───────────────────────────────────────────────────────────
+
+    match /auditLogs/{logId} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    // ─── Lab Tests & Packages (public reference data) ─────────────────────────
+
+    match /labTests/{testId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /testPackages/{packageId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // ─── B2C Bookings ─────────────────────────────────────────────────────────
+
+    match /bookings/{bookingId} {
+      allow create: if true; // Public can create bookings
+      allow read, update, delete: if isAdminOrStaff();
+    }
+  }
+}

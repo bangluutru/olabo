@@ -1,0 +1,331 @@
+{
+  "common": {
+    "appName": "OLabo",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "retry": "Thử lại",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "view": "Xem",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "export": "Xuất",
+    "print": "In",
+    "download": "Tải xuống",
+    "upload": "Tải lên",
+    "submit": "Gửi",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "close": "Đóng",
+    "noData": "Không có dữ liệu",
+    "actions": "Thao tác",
+    "status": "Trạng thái",
+    "date": "Ngày",
+    "name": "Tên",
+    "code": "Mã",
+    "note": "Ghi chú",
+    "phone": "Số điện thoại",
+    "email": "Email",
+    "address": "Địa chỉ",
+    "yes": "Có",
+    "no": "Không",
+    "all": "Tất cả",
+    "from": "Từ",
+    "to": "Đến",
+    "required": "Bắt buộc",
+    "optional": "Tùy chọn",
+    "showing": "Hiển thị {from}–{to} của {total}",
+    "previous": "Trước",
+    "nextPage": "Sau"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "booking": "Đặt lịch xét nghiệm",
+    "results": "Kết quả",
+    "prices": "Bảng giá",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "dashboard": "Tổng quan",
+    "batches": "Đơn hàng loạt",
+    "samples": "Mẫu xét nghiệm",
+    "allResults": "Kết quả",
+    "settings": "Cài đặt",
+    "support": "Hỗ trợ",
+    "adminOverview": "Tổng quan",
+    "b2bBatches": "Đơn B2B",
+    "b2bSamples": "Mẫu B2B",
+    "bookings": "Đặt lịch",
+    "users": "Người dùng & Vai trò",
+    "organizations": "Tổ chức",
+    "auditLogs": "Nhật ký"
+  },
+  "home": {
+    "hero": {
+      "title": "Xét nghiệm tại nhà — Nhanh chóng, Chính xác",
+      "subtitle": "Đặt lịch trực tuyến, nhân viên đến tận nơi lấy mẫu. Kết quả bảo mật, nhận qua mạng.",
+      "cta": "Đặt lịch xét nghiệm",
+      "ctaSecondary": "Xem bảng giá"
+    },
+    "features": {
+      "homeCollection": "Lấy mẫu tại nhà",
+      "homeCollectionDesc": "Nhân viên được chứng nhận đến tận nơi lấy mẫu",
+      "fastResults": "Kết quả nhanh",
+      "fastResultsDesc": "Hầu hết kết quả trong vòng 24–48 giờ",
+      "secureAccess": "Truy cập bảo mật",
+      "secureAccessDesc": "Tra cứu kết quả riêng tư bằng mã cá nhân"
+    },
+    "howItWorks": {
+      "title": "Quy trình",
+      "step1": "Đặt lịch online",
+      "step1Desc": "Chọn xét nghiệm và lịch lấy mẫu",
+      "step2": "Lấy mẫu",
+      "step2Desc": "Nhân viên đến và lấy mẫu tại nhà bạn",
+      "step3": "Nhận kết quả",
+      "step3Desc": "Tải PDF kết quả xét nghiệm bảo mật"
+    }
+  },
+  "booking": {
+    "title": "Đặt lịch xét nghiệm",
+    "steps": {
+      "selectTests": "Chọn xét nghiệm",
+      "patientInfo": "Thông tin bệnh nhân",
+      "schedule": "Lịch hẹn",
+      "confirm": "Xác nhận"
+    },
+    "patientName": "Họ và tên",
+    "patientPhone": "Số điện thoại",
+    "patientDob": "Ngày sinh",
+    "patientGender": "Giới tính",
+    "homeCollection": "Lấy mẫu tại nhà",
+    "homeCollectionDesc": "Nhân viên sẽ đến địa chỉ của bạn để lấy mẫu",
+    "collectionAddress": "Địa chỉ lấy mẫu",
+    "scheduledDate": "Ngày mong muốn",
+    "scheduledTime": "Giờ mong muốn",
+    "confirmBooking": "Xác nhận đặt lịch",
+    "success": "Đặt lịch thành công!",
+    "bookingCode": "Mã đặt lịch",
+    "totalPrice": "Tổng cộng"
+  },
+  "results": {
+    "title": "Tra cứu kết quả xét nghiệm",
+    "subtitle": "Nhập số điện thoại và mã kết quả để xem kết quả",
+    "phonePlaceholder": "Số điện thoại đã đăng ký",
+    "codePlaceholder": "Mã kết quả (VD: R-20240601-XXXX)",
+    "lookup": "Tra cứu",
+    "notFound": "Không tìm thấy kết quả. Vui lòng kiểm tra lại số điện thoại và mã kết quả.",
+    "downloadPdf": "Tải PDF",
+    "resultDate": "Ngày kết quả",
+    "testSummary": "Tóm tắt xét nghiệm",
+    "status": {
+      "pending": "Đang xử lý",
+      "ready": "Sẵn sàng",
+      "review_required": "Đang xem xét",
+      "released": "Đã phát hành"
+    }
+  },
+  "prices": {
+    "title": "Bảng giá xét nghiệm",
+    "searchPlaceholder": "Tìm theo tên xét nghiệm hoặc mã",
+    "code": "Mã",
+    "testName": "Tên xét nghiệm",
+    "sampleType": "Loại mẫu",
+    "turnaround": "Thời gian trả KQ",
+    "price": "Giá",
+    "categories": {
+      "all": "Tất cả",
+      "hematology": "Huyết học",
+      "biochemistry": "Sinh hóa",
+      "immunology": "Miễn dịch",
+      "microbiology": "Vi sinh",
+      "hormones": "Hormone",
+      "packages": "Gói xét nghiệm"
+    }
+  },
+  "auth": {
+    "loginTitle": "Đăng nhập",
+    "partnerLoginTitle": "Cổng đối tác",
+    "emailLabel": "Email",
+    "passwordLabel": "Mật khẩu",
+    "loginButton": "Đăng nhập",
+    "loggingIn": "Đang đăng nhập...",
+    "invalidCredentials": "Email hoặc mật khẩu không đúng",
+    "forgotPassword": "Quên mật khẩu?",
+    "partnerLogin": "Đăng nhập đối tác"
+  },
+  "partner": {
+    "dashboard": {
+      "title": "Bảng điều khiển đối tác",
+      "totalBatches": "Tổng đơn",
+      "processing": "Đang xử lý",
+      "completedThisMonth": "Hoàn thành tháng này",
+      "readyToDownload": "Sẵn sàng tải",
+      "recentBatches": "Đơn gần đây",
+      "viewAll": "Xem tất cả",
+      "newBatch": "Tạo đơn mới",
+      "viewResults": "Xem kết quả"
+    }
+  },
+  "b2b": {
+    "batch": {
+      "title": "Đơn xét nghiệm B2B",
+      "batchCode": "Mã đơn",
+      "partnerRef": "Mã tham chiếu",
+      "submittedDate": "Ngày gửi",
+      "totalSamples": "Tổng mẫu",
+      "completedSamples": "Hoàn thành",
+      "pickupRequired": "Cần lấy mẫu",
+      "submittedBy": "Người gửi",
+      "submittedByPhone": "SĐT liên hệ",
+      "pickupAddress": "Địa chỉ lấy mẫu",
+      "pickupDate": "Ngày lấy mẫu",
+      "pickupTime": "Giờ lấy mẫu",
+      "organizationName": "Tổ chức",
+      "internalNote": "Ghi chú nội bộ (chỉ admin)",
+      "progress": "Hoàn thành {completed}/{total} mẫu",
+      "noPickup": "Tự giao mẫu",
+      "createTitle": "Tạo đơn mới",
+      "editTitle": "Chỉnh sửa đơn",
+      "newBatch": "Tạo đơn mới",
+      "batchInfo": "Thông tin đơn",
+      "addSamples": "Thêm mẫu",
+      "manualEntry": "Nhập tay",
+      "csvImport": "Nhập từ CSV",
+      "saveAsDraft": "Lưu nháp",
+      "submitBatch": "Gửi đơn",
+      "samplesAdded": "Đã thêm {count} mẫu",
+      "confirmSubmit": "Xác nhận gửi đơn?",
+      "confirmSubmitDesc": "Sau khi gửi, đơn sẽ được chuyển đến phòng lab để xử lý.",
+      "submitSuccess": "Gửi đơn thành công!",
+      "batchCodeLabel": "Mã đơn",
+      "exportCsv": "Xuất CSV",
+      "downloadReady": "Tải kết quả sẵn sàng ({count})",
+      "printSummary": "In tóm tắt",
+      "contactSupport": "Liên hệ hỗ trợ",
+      "markReceived": "Đánh dấu đã nhận",
+      "updateStatus": "Cập nhật trạng thái"
+    },
+    "sample": {
+      "title": "Chi tiết mẫu",
+      "patientName": "Họ và tên",
+      "patientCode": "Mã bệnh nhân",
+      "patientPhone": "Số điện thoại",
+      "patientDob": "Ngày sinh",
+      "patientGender": "Giới tính",
+      "sampleBarcode": "Mã vạch mẫu",
+      "sampleType": "Loại mẫu",
+      "requestedTests": "Xét nghiệm yêu cầu",
+      "requestedPackages": "Gói xét nghiệm",
+      "partnerSampleRef": "Mã mẫu đối tác",
+      "collectionDate": "Ngày lấy mẫu",
+      "receivedAt": "Ngày nhận mẫu",
+      "rejectionReason": "Lý do từ chối",
+      "assignBarcode": "Gán mã vạch",
+      "assignBarcodeButton": "Gán",
+      "uploadResult": "Tải lên kết quả PDF",
+      "releaseToPartner": "Phát hành cho đối tác",
+      "requireReview": "Yêu cầu xem xét",
+      "releasedAt": "Ngày phát hành",
+      "releasedBy": "Phát hành bởi",
+      "downloadHistory": "Lịch sử tải xuống"
+    },
+    "csv": {
+      "downloadTemplate": "Tải mẫu CSV",
+      "uploadZone": "Thả file CSV vào đây hoặc nhấn để chọn",
+      "uploadHint": "Chỉ hỗ trợ file .csv. Tối đa 1000 dòng.",
+      "preview": "Xem trước CSV",
+      "validRows": "{count} dòng hợp lệ",
+      "errorRows": "{count} dòng có lỗi",
+      "uploadValidOnly": "Nhập {count} dòng hợp lệ",
+      "rowNumber": "Dòng",
+      "errorColumn": "Lỗi",
+      "noErrors": "Không có lỗi",
+      "columns": {
+        "patientName": "patientName",
+        "patientCode": "patientCode",
+        "patientPhone": "patientPhone",
+        "patientDob": "patientDob",
+        "patientGender": "patientGender",
+        "sampleType": "sampleType",
+        "requestedTestCodes": "requestedTestCodes",
+        "requestedPackageCodes": "requestedPackageCodes",
+        "partnerSampleReference": "partnerSampleReference",
+        "note": "note"
+      },
+      "errors": {
+        "patientNameRequired": "patientName là bắt buộc",
+        "sampleTypeRequired": "sampleType là bắt buộc",
+        "invalidGender": "patientGender phải là: male, female, other, hoặc unknown"
+      }
+    },
+    "status": {
+      "batch": {
+        "draft": "Nháp",
+        "submitted": "Đã gửi",
+        "pickup_scheduled": "Đã lên lịch lấy mẫu",
+        "received": "Đã nhận",
+        "processing": "Đang xử lý",
+        "partially_completed": "Hoàn thành một phần",
+        "completed": "Hoàn thành",
+        "cancelled": "Đã hủy"
+      },
+      "sample": {
+        "registered": "Đã đăng ký",
+        "received": "Đã nhận",
+        "rejected": "Bị từ chối",
+        "processing": "Đang xử lý",
+        "result_ready": "Kết quả sẵn sàng",
+        "result_released": "Đã phát hành",
+        "cancelled": "Đã hủy"
+      },
+      "result": {
+        "not_started": "Chưa bắt đầu",
+        "pending": "Đang chờ",
+        "ready": "Sẵn sàng",
+        "review_required": "Cần xem xét",
+        "released": "Đã phát hành"
+      }
+    },
+    "actions": {
+      "viewBatch": "Xem đơn",
+      "viewSample": "Xem mẫu",
+      "downloadPdf": "Tải PDF",
+      "downloadAll": "Tải tất cả sẵn sàng",
+      "exportCsv": "Xuất CSV",
+      "releaseSample": "Phát hành cho đối tác",
+      "markReceived": "Đánh dấu đã nhận",
+      "assignBarcode": "Gán mã vạch",
+      "uploadPdf": "Tải lên PDF",
+      "pdfNotReady": "Chưa sẵn sàng",
+      "pdfPreparing": "Đang chuẩn bị...",
+      "pdfFailed": "Lỗi — Thử lại"
+    },
+    "errors": {
+      "batchNotFound": "Không tìm thấy đơn",
+      "sampleNotFound": "Không tìm thấy mẫu",
+      "accessDenied": "Bạn không có quyền truy cập tài nguyên này",
+      "resultNotReady": "Kết quả chưa sẵn sàng để tải xuống",
+      "uploadFailed": "Tải lên thất bại. Vui lòng thử lại."
+    }
+  },
+  "gender": {
+    "male": "Nam",
+    "female": "Nữ",
+    "other": "Khác",
+    "unknown": "Không rõ"
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Bảng điều khiển Admin"
+    },
+    "b2bBatches": {
+      "title": "Đơn B2B",
+      "allOrganizations": "Tất cả tổ chức"
+    },
+    "b2bSamples": {
+      "title": "Quản lý mẫu B2B"
+    }
+  }
+}

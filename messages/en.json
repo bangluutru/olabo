@@ -1,0 +1,331 @@
+{
+  "common": {
+    "appName": "OLabo",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "print": "Print",
+    "download": "Download",
+    "upload": "Upload",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "noData": "No data found",
+    "actions": "Actions",
+    "status": "Status",
+    "date": "Date",
+    "name": "Name",
+    "code": "Code",
+    "note": "Note",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "from": "From",
+    "to": "To",
+    "required": "Required",
+    "optional": "Optional",
+    "showing": "Showing {from}–{to} of {total}",
+    "previous": "Previous",
+    "nextPage": "Next"
+  },
+  "nav": {
+    "home": "Home",
+    "booking": "Book a Test",
+    "results": "My Results",
+    "prices": "Price List",
+    "login": "Login",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "batches": "My Batches",
+    "samples": "Samples",
+    "allResults": "Results",
+    "settings": "Settings",
+    "support": "Support",
+    "adminOverview": "Overview",
+    "b2bBatches": "B2B Batches",
+    "b2bSamples": "B2B Samples",
+    "bookings": "Bookings",
+    "users": "Users & Roles",
+    "organizations": "Organizations",
+    "auditLogs": "Audit Logs"
+  },
+  "home": {
+    "hero": {
+      "title": "Home Blood Testing — Fast, Accurate Results",
+      "subtitle": "Book a test online, we collect at your door. Secure results delivered digitally.",
+      "cta": "Book a Test",
+      "ctaSecondary": "View Price List"
+    },
+    "features": {
+      "homeCollection": "Home Sample Collection",
+      "homeCollectionDesc": "Certified staff collect samples at your location",
+      "fastResults": "Fast Results",
+      "fastResultsDesc": "Most results delivered within 24–48 hours",
+      "secureAccess": "Secure Access",
+      "secureAccessDesc": "Access your results privately with a personal code"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": "Book Online",
+      "step1Desc": "Choose your tests and schedule a collection",
+      "step2": "Sample Collection",
+      "step2Desc": "Our staff visits and collects your sample",
+      "step3": "Get Results",
+      "step3Desc": "Download your PDF results securely"
+    }
+  },
+  "booking": {
+    "title": "Book a Test",
+    "steps": {
+      "selectTests": "Select Tests",
+      "patientInfo": "Patient Info",
+      "schedule": "Schedule",
+      "confirm": "Confirm"
+    },
+    "patientName": "Patient Name",
+    "patientPhone": "Phone Number",
+    "patientDob": "Date of Birth",
+    "patientGender": "Gender",
+    "homeCollection": "Home Collection",
+    "homeCollectionDesc": "We will collect the sample at your address",
+    "collectionAddress": "Collection Address",
+    "scheduledDate": "Preferred Date",
+    "scheduledTime": "Preferred Time",
+    "confirmBooking": "Confirm Booking",
+    "success": "Booking confirmed!",
+    "bookingCode": "Your booking code",
+    "totalPrice": "Total"
+  },
+  "results": {
+    "title": "Look Up Your Results",
+    "subtitle": "Enter your phone number and result code to access your results",
+    "phonePlaceholder": "Your registered phone number",
+    "codePlaceholder": "Result code (e.g. R-20240601-XXXX)",
+    "lookup": "Look Up",
+    "notFound": "No results found. Please check your phone number and result code.",
+    "downloadPdf": "Download PDF",
+    "resultDate": "Result Date",
+    "testSummary": "Test Summary",
+    "status": {
+      "pending": "Processing",
+      "ready": "Ready",
+      "review_required": "Under Review",
+      "released": "Released"
+    }
+  },
+  "prices": {
+    "title": "Price List",
+    "searchPlaceholder": "Search by test name or code",
+    "code": "Code",
+    "testName": "Test Name",
+    "sampleType": "Sample Type",
+    "turnaround": "Turnaround",
+    "price": "Price",
+    "categories": {
+      "all": "All",
+      "hematology": "Hematology",
+      "biochemistry": "Biochemistry",
+      "immunology": "Immunology",
+      "microbiology": "Microbiology",
+      "hormones": "Hormones",
+      "packages": "Packages"
+    }
+  },
+  "auth": {
+    "loginTitle": "Sign In",
+    "partnerLoginTitle": "Partner Portal",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "loginButton": "Sign In",
+    "loggingIn": "Signing in...",
+    "invalidCredentials": "Invalid email or password",
+    "forgotPassword": "Forgot password?",
+    "partnerLogin": "Partner Login"
+  },
+  "partner": {
+    "dashboard": {
+      "title": "Partner Dashboard",
+      "totalBatches": "Total Batches",
+      "processing": "Processing",
+      "completedThisMonth": "Completed This Month",
+      "readyToDownload": "Ready to Download",
+      "recentBatches": "Recent Batches",
+      "viewAll": "View all",
+      "newBatch": "New Batch",
+      "viewResults": "View Results"
+    }
+  },
+  "b2b": {
+    "batch": {
+      "title": "B2B Batches",
+      "batchCode": "Batch Code",
+      "partnerRef": "Partner Reference",
+      "submittedDate": "Submitted",
+      "totalSamples": "Total Samples",
+      "completedSamples": "Completed",
+      "pickupRequired": "Pickup Required",
+      "submittedBy": "Submitted By",
+      "submittedByPhone": "Contact Phone",
+      "pickupAddress": "Pickup Address",
+      "pickupDate": "Pickup Date",
+      "pickupTime": "Pickup Time",
+      "organizationName": "Organization",
+      "internalNote": "Internal Note (admin only)",
+      "progress": "Completed {completed} of {total} samples",
+      "noPickup": "Self-delivery",
+      "createTitle": "Create New Batch",
+      "editTitle": "Edit Batch",
+      "newBatch": "New Batch",
+      "batchInfo": "Batch Information",
+      "addSamples": "Add Samples",
+      "manualEntry": "Manual Entry",
+      "csvImport": "CSV Import",
+      "saveAsDraft": "Save as Draft",
+      "submitBatch": "Submit Batch",
+      "samplesAdded": "{count} sample(s) added",
+      "confirmSubmit": "Submit this batch?",
+      "confirmSubmitDesc": "Once submitted, the batch will be sent to the lab for processing.",
+      "submitSuccess": "Batch submitted successfully!",
+      "batchCodeLabel": "Batch Code",
+      "exportCsv": "Export CSV",
+      "downloadReady": "Download Ready Results ({count})",
+      "printSummary": "Print Summary",
+      "contactSupport": "Contact Support",
+      "markReceived": "Mark as Received",
+      "updateStatus": "Update Status"
+    },
+    "sample": {
+      "title": "Sample Detail",
+      "patientName": "Patient Name",
+      "patientCode": "Patient Code",
+      "patientPhone": "Patient Phone",
+      "patientDob": "Date of Birth",
+      "patientGender": "Gender",
+      "sampleBarcode": "Sample Barcode",
+      "sampleType": "Sample Type",
+      "requestedTests": "Requested Tests",
+      "requestedPackages": "Requested Packages",
+      "partnerSampleRef": "Partner Sample Reference",
+      "collectionDate": "Collection Date",
+      "receivedAt": "Received At",
+      "rejectionReason": "Rejection Reason",
+      "assignBarcode": "Assign Barcode",
+      "assignBarcodeButton": "Assign",
+      "uploadResult": "Upload Result PDF",
+      "releaseToPartner": "Release to Partner",
+      "requireReview": "Require Review",
+      "releasedAt": "Released At",
+      "releasedBy": "Released By",
+      "downloadHistory": "Download History"
+    },
+    "csv": {
+      "downloadTemplate": "Download CSV Template",
+      "uploadZone": "Drop your CSV file here, or click to browse",
+      "uploadHint": "Supports .csv files only. Maximum 1000 rows.",
+      "preview": "CSV Preview",
+      "validRows": "{count} valid rows",
+      "errorRows": "{count} rows with errors",
+      "uploadValidOnly": "Import {count} Valid Rows",
+      "rowNumber": "Row",
+      "errorColumn": "Errors",
+      "noErrors": "No errors",
+      "columns": {
+        "patientName": "patientName",
+        "patientCode": "patientCode",
+        "patientPhone": "patientPhone",
+        "patientDob": "patientDob",
+        "patientGender": "patientGender",
+        "sampleType": "sampleType",
+        "requestedTestCodes": "requestedTestCodes",
+        "requestedPackageCodes": "requestedPackageCodes",
+        "partnerSampleReference": "partnerSampleReference",
+        "note": "note"
+      },
+      "errors": {
+        "patientNameRequired": "patientName is required",
+        "sampleTypeRequired": "sampleType is required",
+        "invalidGender": "patientGender must be: male, female, other, or unknown"
+      }
+    },
+    "status": {
+      "batch": {
+        "draft": "Draft",
+        "submitted": "Submitted",
+        "pickup_scheduled": "Pickup Scheduled",
+        "received": "Received",
+        "processing": "Processing",
+        "partially_completed": "Partially Completed",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      },
+      "sample": {
+        "registered": "Registered",
+        "received": "Received",
+        "rejected": "Rejected",
+        "processing": "Processing",
+        "result_ready": "Result Ready",
+        "result_released": "Released",
+        "cancelled": "Cancelled"
+      },
+      "result": {
+        "not_started": "Not Started",
+        "pending": "Pending",
+        "ready": "Ready",
+        "review_required": "Review Required",
+        "released": "Released"
+      }
+    },
+    "actions": {
+      "viewBatch": "View Batch",
+      "viewSample": "View Sample",
+      "downloadPdf": "Download PDF",
+      "downloadAll": "Download All Ready",
+      "exportCsv": "Export CSV",
+      "releaseSample": "Release to Partner",
+      "markReceived": "Mark Received",
+      "assignBarcode": "Assign Barcode",
+      "uploadPdf": "Upload PDF",
+      "pdfNotReady": "Not Ready",
+      "pdfPreparing": "Preparing...",
+      "pdfFailed": "Failed — Retry"
+    },
+    "errors": {
+      "batchNotFound": "Batch not found",
+      "sampleNotFound": "Sample not found",
+      "accessDenied": "You do not have access to this resource",
+      "resultNotReady": "Result is not yet available for download",
+      "uploadFailed": "Upload failed. Please try again."
+    }
+  },
+  "gender": {
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "unknown": "Unknown"
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Admin Dashboard"
+    },
+    "b2bBatches": {
+      "title": "B2B Batches",
+      "allOrganizations": "All Organizations"
+    },
+    "b2bSamples": {
+      "title": "B2B Sample Management"
+    }
+  }
+}
